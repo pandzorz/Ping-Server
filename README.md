@@ -1,21 +1,21 @@
 # Ping-Server
-<b>Required Software</b>
+<b>Required Software</b><br>
 <p><lu>
-<li>MongoDB: Windows v3.0.12</li>
-<li>https://www.mongodb.com/dr/fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.0.12-signed.msi/download</li>
-<li>JVM or Java IDE(IntelliJ used)</li>
+MongoDB: Windows v3.0.12<br>
+<li>https://www.mongodb.com/dr/fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.0.12-signed.msi/download</li><br>
+JVM or Java IDE(IntelliJ used)<br>
 </lu>
 </p>
 
 <b>Installation</b>
-  1. Install MongoDB.
+  1. Install MongoDB.<br>
       Windows Installation Guide: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
   2. Extract "Pings.jar" and "log4j2.xml" to a folder where you would like to run the Ping Server from, or open project src in IDE to run with parameters.
 
 <b>Running Instructions</b>
-  1. Run MongoDB:
+  1. Run MongoDB:<br>
       From cmd run "C:\path\to\mongod.exe --dbpath C:\path\to\db"
-  2. Run Jar from command line (with optional parameters):
+  2. Run Jar from command line (with optional parameters):<br>
       "java -jar C:\path\to\Pings.jar" + " optional parameters"
   3. Run any tests required.
 
