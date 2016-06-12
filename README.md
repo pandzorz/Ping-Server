@@ -19,10 +19,8 @@
       "java -jar C:\path\to\Pings.jar" + " optional parameters"
   3. Run any tests required.
 
-<b>Parameter Options</b>
-<p>
+<b>Parameter Options</b><br>
 [-h 'hostname'] [-p 'serverPort'] [-dh 'databaseHost'] [-dp 'databasePort']
-</p>
 
 <p>Not specifying a parameter results in default values to be used, as follows.</p>
 <lu>
@@ -32,18 +30,18 @@
 <li>Database Port: 27017</li>
 </lu>
 
-<b>Libraries Used</b>
+<b>Libraries Used</b><br>
 <lu>
-<li>Commons CLI</li>
-<li>Used to make parameter options simple and flexible.</li>
-<li>Joda Time</li>
-<li>Used in place of standard Time library, as it was easier to handle epoch, ISO, and time-zones.</li>
-<li>Mongo Java Driver</li>
-<li>Required for communications with the MongoDB database</li>
-<li>JSON Simple</li>
-<li>Found to be much easier than the javax json library, after using both.</li>
-<li>Apache log4j</li>
-<li>Good logging framework to control application output.</li>
+<i>Commons CLI</i><br>
+Used to make parameter options simple and flexible.<br>
+<i>Joda Time</i><br>
+Used in place of standard Time library, as it was easier to handle epoch, ISO, and time-zones.<br>
+<i>Mongo Java Driver</i><br>
+Required for communications with the MongoDB database<br>
+<i>JSON Simple</i><br>
+Found to be much easier than the javax json library, after using both.<br>
+<i>Apache log4j</i><br>
+Good logging framework to control application output.<br>
 </lu>
   
 <b>Data Persistence</b>
