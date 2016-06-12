@@ -6,14 +6,14 @@ JVM or Java IDE(IntelliJ used)
 
 Installation
   1. Install MongoDB.
-    Windows Installation Guide: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+      Windows Installation Guide: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
   2. Extract "Pings.jar" and "log4j2.xml" to a folder where you would like to run the Ping Server from, or open project src in IDE to run with parameters.
 
 Running Instructions
   1. Run MongoDB:
-    From cmd run "C:\path\to\mongod.exe --dbpath C:\path\to\db"
+      From cmd run "C:\path\to\mongod.exe --dbpath C:\path\to\db"
   2. Run Jar from command line (with optional parameters):
-    "java -jar C:\path\to\Pings.jar" + " optional parameters"
+      "java -jar C:\path\to\Pings.jar" + " optional parameters"
   3. Run any tests required.
 
 Parameter Options
